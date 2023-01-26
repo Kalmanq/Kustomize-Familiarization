@@ -1,0 +1,9 @@
+secretGenerator:
+  - name: db-creds
+    literals:
+      - username=postgres
+      - password=password1
+
+  - name: domain-name
+    literals:
+      - domain=api.kodekloud.com

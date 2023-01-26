@@ -11,3 +11,11 @@ fileignoreconfig:
   checksum: 37faae6f6aa45443d7880edc9487a7e4f2aa8971554a8aa4e9c3cd5a2da17309
 - filename: 06_components/sample0/components/db/kustomization.yaml
   checksum: 8fa7587f0594e79d355d93d48244366d4a749add04191c8787febf1b5b3a6445
+- filename: 07_generators/sample0/db-depl.yaml
+  checksum: 6d50d348012255009c7ecc7122f7fcd1c8b276e52e75c54caad8357e05d355d6
+- filename: 07_generators/sample0/kustomization.yaml
+  checksum: 1598a95c112e0d8a80799624c37b85242ce101027c279e00c02b6d67053ec397
+- filename: 07_generators/sample2/db-depl.yaml
+  checksum: 1eb72c8b19306043873df614fd83579136d78b9c718b95f5b9d666d5c9dfc278
+- filename: 07_generators/sample2/kustomization.yaml
+  checksum: 9c041e9c7dccea138fbc48aa1aa9b831b510c8138f3ecfa585fd454ec07fd2c6
