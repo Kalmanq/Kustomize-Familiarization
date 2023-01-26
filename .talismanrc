@@ -1,0 +1,7 @@
+fileignoreconfig:
+- filename: 05_overlays/sample0/base/db-configMap.yaml
+  checksum: 69b97071130ed1295daf8ef93bb5c7b4f4058bad249d3b174f06b691773a456a
+- filename: 05_overlays/sample0/base/mongo-depl.yaml
+  checksum: 445b70e31572d0f79c9d37d8239185443435075fedccd1dc5aaf5c0868241e6a
+- filename: 05_overlays/sample0/overlays/dev/api-patch.yaml
+  checksum: f8fc22d45dd3b0ebf5c6b4a5bd37ae444521618d5c2903ac3c6e59efbee9f9c3
