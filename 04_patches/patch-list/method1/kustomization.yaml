@@ -1,0 +1,23 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - deployment.yaml
+
+patches:
+  - target:
+      kind: Deployment
+      name: api-deployment
+    patch: |-
+      - op: replace
+        path: /spec/template/spec/containers/0
+        value: 
+          name: api
+          image: haproxy
+      - op: add
+        path: /spec/template/spec/containers/-
+        value: 
+          name: nginx
+          image: nginx
+      - op: remove
+        path: /spec/template/spec/containers/1
