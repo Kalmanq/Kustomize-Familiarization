@@ -5,3 +5,9 @@ fileignoreconfig:
   checksum: 445b70e31572d0f79c9d37d8239185443435075fedccd1dc5aaf5c0868241e6a
 - filename: 05_overlays/sample0/overlays/dev/api-patch.yaml
   checksum: f8fc22d45dd3b0ebf5c6b4a5bd37ae444521618d5c2903ac3c6e59efbee9f9c3
+- filename: 06_components/sample0/components/db/api-patch.yaml
+  checksum: 7b1f97677f6c7695a82c2d4c66db7e9970894abc254d48ea1f725ed92d8ffc29
+- filename: 06_components/sample0/components/db/db-deployment.yaml
+  checksum: 37faae6f6aa45443d7880edc9487a7e4f2aa8971554a8aa4e9c3cd5a2da17309
+- filename: 06_components/sample0/components/db/kustomization.yaml
+  checksum: 8fa7587f0594e79d355d93d48244366d4a749add04191c8787febf1b5b3a6445
