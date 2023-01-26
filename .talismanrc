@@ -19,3 +19,5 @@ fileignoreconfig:
   checksum: 1eb72c8b19306043873df614fd83579136d78b9c718b95f5b9d666d5c9dfc278
 - filename: 07_generators/sample2/kustomization.yaml
   checksum: 9c041e9c7dccea138fbc48aa1aa9b831b510c8138f3ecfa585fd454ec07fd2c6
+- filename: 08_imperative-commands/kustomization-commands.sh
+  checksum: d923b6d3d2826c92c0409766f1ae575589ae8e0871394290cbbc4d1ff6d65e08
